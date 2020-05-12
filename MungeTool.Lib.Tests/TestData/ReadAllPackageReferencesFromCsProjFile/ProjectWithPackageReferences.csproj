@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <PackageId>PackageId.From.CsProj</PackageId>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="nunit" Version="3.12.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="3.5.8" />
+        <PackageReference Include="Amewod.Core" Version="3.*" />
+    </ItemGroup>
+</Project>

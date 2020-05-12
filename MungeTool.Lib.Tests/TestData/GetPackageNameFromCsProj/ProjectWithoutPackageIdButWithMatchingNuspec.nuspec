@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>PackageId.From.Nuspec</id>
+        <version>0.0.1</version>
+        <title>Sharp Life Science</title>
+        <authors>SLS</authors>
+        <owners>SLS</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Some description</description>
+        <summary>Some summary</summary>
+    </metadata>
+</package>

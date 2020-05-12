@@ -1,0 +1,12 @@
+﻿GeneratedMungeSlnFile: Munge.sln # Relative to CodeRootFolder setting in users' config.yaml
+CodeRootFolders: # Relative to CodeRootFolder setting in users' config.yaml
+- Git-Repository-1
+- Git-Repository-2
+MainApplications:
+- Name: Application-1
+  Exclusions:
+  - Ignore-Project-1
+- Name: Application-2
+  Exclusions:
+  - Ignore-Project-2
+  - Ignore-Project-3
