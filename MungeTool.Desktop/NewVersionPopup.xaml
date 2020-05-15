@@ -1,0 +1,34 @@
+﻿<Window x:Class="MungeTool.Desktop.NewVersionPopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:vms="clr-namespace:MungeTool.Desktop.ViewModels"
+        d:DataContext="{d:DesignInstance vms:NewVersionPopupViewModel, IsDesignTimeCreatable=True}"
+        WindowStyle="ToolWindow"
+        WindowStartupLocation="CenterOwner"
+        Title="New Version Available!" SizeToContent="WidthAndHeight">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0 0 0 2" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0">Version <Run Text="{Binding NewVersionNumber}" /> has been downloaded!</TextBlock>
+        <TextBlock Grid.Row="1">This app will now be closed.</TextBlock>
+        <TextBlock Grid.Row="2">Please restart to use the new version.</TextBlock>
+        <Button Grid.Row="4" Click="Button_Click">OK</Button>
+    </Grid>
+</Window>

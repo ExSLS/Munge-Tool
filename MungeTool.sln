@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MungeTool.Console", "MungeT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MungeTool.Lib.Tests", "MungeTool.Lib.Tests\MungeTool.Lib.Tests.csproj", "{2495CAD0-6DE4-470F-9EA0-942E0B3817B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MungeTool.Desktop", "MungeTool.Desktop\MungeTool.Desktop.csproj", "{A26FE8BD-C794-4E79-8392-663DF2F96890}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{2495CAD0-6DE4-470F-9EA0-942E0B3817B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2495CAD0-6DE4-470F-9EA0-942E0B3817B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2495CAD0-6DE4-470F-9EA0-942E0B3817B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26FE8BD-C794-4E79-8392-663DF2F96890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26FE8BD-C794-4E79-8392-663DF2F96890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26FE8BD-C794-4E79-8392-663DF2F96890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26FE8BD-C794-4E79-8392-663DF2F96890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
